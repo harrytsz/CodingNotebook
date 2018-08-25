@@ -1,4 +1,4 @@
-# CodingNotebook [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://GitHub.com/sindresorhus/awesome) [![Build Status](https://img.shields.io/travis/Kikobeats/awesome-github/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/awesome-GitHub) [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
+# CodingNotebook [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://GitHub.com/sindresorhus/awesomes) [![Build Status](https://img.shields.io/travis/Kikobeats/awesome-github/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/awesome-GitHubs) [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeatss)
 
 > An exquisite list of awesome :octocat: secrets.
 
