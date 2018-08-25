@@ -1,4 +1,4 @@
-<div align=center> '# CodingNotebook' </div>
+<center> # CodingNotebook</center>
 
 <div align=left> Record Coding </div>
 
