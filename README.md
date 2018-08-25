@@ -8,25 +8,4 @@
 
 alarmclock
 ==
-alarmclock
--
-alarmclock
- 
-*single asterisks*
- 
-**double asterisks**
- 
-***tripple asterisks***
- 
-- - -
-* * *
- 
-这是一个普通段落：
- 
-protected void onCreate(Bundle savedInstanceState) {
-super.onCreate(savedInstanceState);
-setContentView(R.layout.activity_main);
-iniView(); 
-}
- 
-![github](/res/drawable-hdpi/ic_launcher.png)
+
