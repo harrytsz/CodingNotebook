@@ -8,6 +8,8 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Harrytsz Pygame")
 ball = pygame.image.load("PYG02-ball.gif")
 ballrect = ball.get_rect()
+fps = 300
+fclock = pygame.time.Clock()
 
 while True:
     for event in pygame.event.get():
@@ -22,3 +24,4 @@ while True:
     screen.fill(BLACK)
     screen.blit(ball, ballrect)
     pygame.display.update()
+	fclock.tick(fps)
