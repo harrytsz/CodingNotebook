@@ -15,7 +15,7 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
-		elif event.type == pygame.KEYDOWN:
+	elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 speed[0] = speed[0] if speed[0] == 0 else (abs(speed[0]) - 1)*int(speed[0]/abs(speed[0]))
             elif event.key == pygame.K_RIGHT:
