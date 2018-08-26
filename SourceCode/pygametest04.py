@@ -1,4 +1,4 @@
-##伸缩版本，壁球游戏可以随着窗口大小自动适配
+##伸缩版本，壁球游戏可以随着窗口大小自动适配，同时添加窗口感知功能，一旦最小化，游戏暂停执行。
 import pygame,sys
 
 pygame.init()
@@ -34,7 +34,8 @@ while True:
         elif event.type == pygame.VIDEORESIZE:
             size = width, height = event.size[0], event.size[1]
             screen = pygame.display.set_mode(size, pygame.RESIZABLE)
-    ballrect = ballrect.move(speed[0], speed[1])
+    if pygame.display.get_active():  #窗口感知
+        ballrect = ballrect.move(speed[0], speed[1])
     if ballrect.left < 0 or ballrect.right > width:
         speed[0] = - speed[0]
     if ballrect.top < 0 or ballrect.bottom > height:
