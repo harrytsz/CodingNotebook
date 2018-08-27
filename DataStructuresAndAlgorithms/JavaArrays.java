@@ -133,12 +133,5 @@ public class JavaArrays {
                 System.out.println();
             }
         }
-
-
-
-
-
-
-
     }
 }
